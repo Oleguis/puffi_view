@@ -1,0 +1,52 @@
+.divFormPpal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.divFormInput{
+    display: flex;
+    width: 50%;
+    height: 35px;
+    border: 1px solid;
+    justify-content: space-between;
+    margin-bottom: 5px 0 30px 0;
+}
+
+.formInputMail{
+    display: flex;
+    width: 80%;
+    border: none;
+}
+
+.formInputMail::content{
+    border: none;
+    background-color: blueviolet;
+}
+.formBtnSubmit{
+    font-size:x-large;
+    display: flex;
+    width: 45px;
+    border: 1px solid;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.divFormPpal, .divFormPpal>p{
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.divFormPpal>h1{
+    margin: 0;
+    padding: 0;
+}
+.textInvalido{
+    color:red;
+    font-weight: bold;
+}

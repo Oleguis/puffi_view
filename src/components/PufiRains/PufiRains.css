@@ -1,0 +1,39 @@
+.divPufiRainPpal{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: fit-content;
+}
+
+.divPufiRainsImg{
+    display: flex;
+    width: 50%;
+    height: 80vh;
+    background-image: url("../../assets/pufi_sombrillas.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divPufiRainsOpc{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgRain{
+    width: 150px;
+}
+
+.divSeparadorRain{
+    width: 70px;
+    border-bottom: 2px solid #00000077;
+}
+
+.descripcionRain{
+    width: 250px;
+    text-align: center;
+}

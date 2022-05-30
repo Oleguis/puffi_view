@@ -1,0 +1,39 @@
+.divPufiNapPpal{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: fit-content;
+}
+
+.divPufiNapsImg{
+    display: flex;
+    width: 50%;
+    height: 80vh;
+    background-image: url("../../assets/pufi_nap_img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divPufiNapOpc{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgNap{
+    width: 200px;
+}
+
+.divSeparadorNap{
+    width: 70px;
+    border-bottom: 2px solid #00000077;
+}
+
+.descripcionNap{
+    width: 250px;
+    text-align: center;
+}

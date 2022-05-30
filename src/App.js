@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from './components/NavBar/Navbar'
+import { PufiCarts } from './components/PufiCarts/PufiCarts'
+import { PufiPuff } from './components/PufiPuff/PufiPuff';
+import { PufiRains } from './components/PufiRains/PufiRains';
+import { PufiNap } from './components/PufiNap/PufiNap';
+import RedesSociales from './components/RedesSociales/RedesSociales';
+import Formulario from './components/Formulario/Formulario';
+import footerImg from './assets/footer_img.png'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Navbar/>
+      <PufiRains id={"PufiRain"} />
+      <PufiPuff id={"PufiPuff"} />
+      <PufiCarts id={"PufiCart"} />
+      <PufiNap id={"PufiNap"} />
+      <RedesSociales />
+      <Formulario />
+      <footer className='divFooter'>
+        <img src={footerImg} alt=''  />
+      </footer>
+    </>
+  )
 }
-
-export default App;
+export default App

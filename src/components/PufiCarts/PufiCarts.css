@@ -1,0 +1,39 @@
+.divPufiCartPpal{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: fit-content;
+}
+
+.divPufiCartsImg{
+    display: flex;
+    width: 50%;
+    height: 80vh;
+    background-image: url("../../assets/pufi_cart_img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.divPufiCartsOpc{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgCart{
+    width: 150px;
+}
+
+.divSeparadorCart{
+    width: 70px;
+    border-bottom: 2px solid #00000077;
+}
+
+.descripcionCart{
+    width: 250px;
+    text-align: center;
+}

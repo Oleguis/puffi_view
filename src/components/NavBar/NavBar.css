@@ -1,0 +1,106 @@
+.divNavbarPpal{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../../assets/img_1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.App{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 90px;
+    width: 100vw;
+    background:linear-gradient(0deg, #e4ebf322, #151b37);
+}
+
+.App_Link{
+    text-decoration: none;
+    border-right: 2px solid #ffffff33;
+    height: fit-content;
+    margin: 10px;
+    padding: 10px;
+}
+
+.h1, .Logo{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.divMenu {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    font-size: 0.8rem;
+
+}
+
+.shadow{
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073,
+      0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+.titleIcon{
+    text-decoration: none;
+}
+
+.Iconos{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: transparent;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.App_Logo{
+    display: flex;
+    text-decoration: none;
+    border: none;
+    color:#fff;
+    font-family: cursive;
+    font-size: 2rem;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+
+.divSelector{
+    display: flex;
+    height: fit-content;
+    flex-direction: row;
+    align-items: center;
+}
+
+.registrado{
+    font-size: 0.8rem;
+    color: #ffffff99;
+    margin-top: 10px;
+}
+
+.selector{
+    display: flex;
+    height: 30px;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    width: 100px;
+    color: #fff;
+    font-size: 0.7rem;
+    padding: 3px;
+    border-right: 1px solid #ffffff33;
+}
+
+.linkSelector, .linkCarrito{
+    color: #fff;
+    width: 100px;
+    text-decoration: none;
+    font-size: 0.7rem;
+    padding: 10px;
+
+}
+
